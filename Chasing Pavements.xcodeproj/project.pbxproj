@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3914A15519DFAC5F005B4112 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914A15419DFAC5F005B4112 /* View2.swift */; };
+		39E6C3F419DB330B007ACFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6C3F319DB330B007ACFB2 /* AppDelegate.swift */; };
+		39E6C3F619DB330B007ACFB2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39E6C3F519DB330B007ACFB2 /* GameScene.sks */; };
+		39E6C3F819DB330B007ACFB2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6C3F719DB330B007ACFB2 /* GameScene.swift */; };
+		39E6C3FA19DB330B007ACFB2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6C3F919DB330B007ACFB2 /* GameViewController.swift */; };
+		39E6C3FD19DB330B007ACFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E6C3FB19DB330B007ACFB2 /* Main.storyboard */; };
+		39E6C3FF19DB330B007ACFB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E6C3FE19DB330B007ACFB2 /* Images.xcassets */; };
+		39E6C40219DB330B007ACFB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E6C40019DB330B007ACFB2 /* LaunchScreen.xib */; };
+		39E6C40E19DB330B007ACFB2 /* Chasing_PavementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6C40D19DB330B007ACFB2 /* Chasing_PavementsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39E6C40819DB330B007ACFB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39E6C3E619DB330B007ACFB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39E6C3ED19DB330B007ACFB2;
+			remoteInfo = "Chasing Pavements";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3914A15419DFAC5F005B4112 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View2.swift; path = ../View2.swift; sourceTree = "<group>"; };
+		39E6C3EE19DB330B007ACFB2 /* Chasing Pavements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chasing Pavements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E6C3F219DB330B007ACFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E6C3F319DB330B007ACFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39E6C3F519DB330B007ACFB2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		39E6C3F719DB330B007ACFB2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		39E6C3F919DB330B007ACFB2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		39E6C3FC19DB330B007ACFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39E6C3FE19DB330B007ACFB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39E6C40119DB330B007ACFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		39E6C40719DB330B007ACFB2 /* Chasing PavementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chasing PavementsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E6C40C19DB330B007ACFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E6C40D19DB330B007ACFB2 /* Chasing_PavementsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chasing_PavementsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39E6C3EB19DB330B007ACFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E6C40419DB330B007ACFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E6C3E519DB330B007ACFB2 = {
+			isa = PBXGroup;
+			children = (
+				39E6C3F019DB330B007ACFB2 /* Chasing Pavements */,
+				39E6C40A19DB330B007ACFB2 /* Chasing PavementsTests */,
+				39E6C3EF19DB330B007ACFB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39E6C3EF19DB330B007ACFB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39E6C3EE19DB330B007ACFB2 /* Chasing Pavements.app */,
+				39E6C40719DB330B007ACFB2 /* Chasing PavementsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E6C3F019DB330B007ACFB2 /* Chasing Pavements */ = {
+			isa = PBXGroup;
+			children = (
+				39E6C3F319DB330B007ACFB2 /* AppDelegate.swift */,
+				39E6C3F519DB330B007ACFB2 /* GameScene.sks */,
+				39E6C3F719DB330B007ACFB2 /* GameScene.swift */,
+				39E6C3F919DB330B007ACFB2 /* GameViewController.swift */,
+				3914A15419DFAC5F005B4112 /* View2.swift */,
+				39E6C3FB19DB330B007ACFB2 /* Main.storyboard */,
+				39E6C3FE19DB330B007ACFB2 /* Images.xcassets */,
+				39E6C40019DB330B007ACFB2 /* LaunchScreen.xib */,
+				39E6C3F119DB330B007ACFB2 /* Supporting Files */,
+			);
+			path = "Chasing Pavements";
+			sourceTree = "<group>";
+		};
+		39E6C3F119DB330B007ACFB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E6C3F219DB330B007ACFB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39E6C40A19DB330B007ACFB2 /* Chasing PavementsTests */ = {
+			isa = PBXGroup;
+			children = (
+				39E6C40D19DB330B007ACFB2 /* Chasing_PavementsTests.swift */,
+				39E6C40B19DB330B007ACFB2 /* Supporting Files */,
+			);
+			path = "Chasing PavementsTests";
+			sourceTree = "<group>";
+		};
+		39E6C40B19DB330B007ACFB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E6C40C19DB330B007ACFB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39E6C3ED19DB330B007ACFB2 /* Chasing Pavements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E6C41119DB330B007ACFB2 /* Build configuration list for PBXNativeTarget "Chasing Pavements" */;
+			buildPhases = (
+				39E6C3EA19DB330B007ACFB2 /* Sources */,
+				39E6C3EB19DB330B007ACFB2 /* Frameworks */,
+				39E6C3EC19DB330B007ACFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chasing Pavements";
+			productName = "Chasing Pavements";
+			productReference = 39E6C3EE19DB330B007ACFB2 /* Chasing Pavements.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39E6C40619DB330B007ACFB2 /* Chasing PavementsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E6C41419DB330B007ACFB2 /* Build configuration list for PBXNativeTarget "Chasing PavementsTests" */;
+			buildPhases = (
+				39E6C40319DB330B007ACFB2 /* Sources */,
+				39E6C40419DB330B007ACFB2 /* Frameworks */,
+				39E6C40519DB330B007ACFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39E6C40919DB330B007ACFB2 /* PBXTargetDependency */,
+			);
+			name = "Chasing PavementsTests";
+			productName = "Chasing PavementsTests";
+			productReference = 39E6C40719DB330B007ACFB2 /* Chasing PavementsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39E6C3E619DB330B007ACFB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "PRIxDE Agency";
+				TargetAttributes = {
+					39E6C3ED19DB330B007ACFB2 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					39E6C40619DB330B007ACFB2 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 39E6C3ED19DB330B007ACFB2;
+					};
+				};
+			};
+			buildConfigurationList = 39E6C3E919DB330B007ACFB2 /* Build configuration list for PBXProject "Chasing Pavements" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39E6C3E519DB330B007ACFB2;
+			productRefGroup = 39E6C3EF19DB330B007ACFB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39E6C3ED19DB330B007ACFB2 /* Chasing Pavements */,
+				39E6C40619DB330B007ACFB2 /* Chasing PavementsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39E6C3EC19DB330B007ACFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E6C40219DB330B007ACFB2 /* LaunchScreen.xib in Resources */,
+				39E6C3FF19DB330B007ACFB2 /* Images.xcassets in Resources */,
+				39E6C3F619DB330B007ACFB2 /* GameScene.sks in Resources */,
+				39E6C3FD19DB330B007ACFB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E6C40519DB330B007ACFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39E6C3EA19DB330B007ACFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E6C3F819DB330B007ACFB2 /* GameScene.swift in Sources */,
+				39E6C3FA19DB330B007ACFB2 /* GameViewController.swift in Sources */,
+				39E6C3F419DB330B007ACFB2 /* AppDelegate.swift in Sources */,
+				3914A15519DFAC5F005B4112 /* View2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E6C40319DB330B007ACFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E6C40E19DB330B007ACFB2 /* Chasing_PavementsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39E6C40919DB330B007ACFB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39E6C3ED19DB330B007ACFB2 /* Chasing Pavements */;
+			targetProxy = 39E6C40819DB330B007ACFB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39E6C3FB19DB330B007ACFB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E6C3FC19DB330B007ACFB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39E6C40019DB330B007ACFB2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E6C40119DB330B007ACFB2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39E6C40F19DB330B007ACFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39E6C41019DB330B007ACFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39E6C41219DB330B007ACFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chasing Pavements/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		39E6C41319DB330B007ACFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chasing Pavements/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		39E6C41519DB330B007ACFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chasing PavementsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chasing Pavements.app/Chasing Pavements";
+			};
+			name = Debug;
+		};
+		39E6C41619DB330B007ACFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chasing PavementsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chasing Pavements.app/Chasing Pavements";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39E6C3E919DB330B007ACFB2 /* Build configuration list for PBXProject "Chasing Pavements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E6C40F19DB330B007ACFB2 /* Debug */,
+				39E6C41019DB330B007ACFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E6C41119DB330B007ACFB2 /* Build configuration list for PBXNativeTarget "Chasing Pavements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E6C41219DB330B007ACFB2 /* Debug */,
+				39E6C41319DB330B007ACFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E6C41419DB330B007ACFB2 /* Build configuration list for PBXNativeTarget "Chasing PavementsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E6C41519DB330B007ACFB2 /* Debug */,
+				39E6C41619DB330B007ACFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39E6C3E619DB330B007ACFB2 /* Project object */;
+}

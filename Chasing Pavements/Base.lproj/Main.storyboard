@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LVB-YS-i5n">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="CtS-rA-C9T">
+            <objects>
+                <viewController id="LVB-YS-i5n" customClass="GameViewController" customModule="Chasing_Pavements" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PCf-gQ-wO7"/>
+                        <viewControllerLayoutGuide type="bottom" id="b3d-qh-BLL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bdc-N1-crn" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhX-kg-f1F">
+                                <rect key="frame" x="0.0" y="-17" width="667" height="406"/>
+                                <color key="backgroundColor" red="1" green="0.71096626780000005" blue="0.30648206820000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUX-IM-CwW">
+                                <rect key="frame" x="252" y="242" width="163" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="wLo-7e-PTJ"/>
+                                    <constraint firstAttribute="height" constant="50" id="z4Q-MH-W8Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="High Score">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chasing Pavements" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CU9-r1-edj">
+                                <rect key="frame" x="99" y="60" width="468" height="99"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qud-Bh-TZA">
+                                <rect key="frame" x="57" y="233" width="84" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="ARw-dQ-voY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl7-ab-poP">
+                                <rect key="frame" x="526" y="216" width="100" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="wMK-hH-zEF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rCV-3A-AKA" kind="presentation" modalTransitionStyle="coverVertical" id="Kx1-x3-re5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.71096626775669769" blue="0.30648206823761215" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="b3d-qh-BLL" firstAttribute="top" secondItem="KUX-IM-CwW" secondAttribute="bottom" constant="83" id="1ee-ex-sWA"/>
+                            <constraint firstItem="qud-Bh-TZA" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leadingMargin" constant="41" id="1sC-da-QoC"/>
+                            <constraint firstItem="qud-Bh-TZA" firstAttribute="top" secondItem="CU9-r1-edj" secondAttribute="bottom" constant="74" id="FLA-3Z-xIH"/>
+                            <constraint firstItem="qud-Bh-TZA" firstAttribute="baseline" secondItem="vl7-ab-poP" secondAttribute="firstBaseline" id="HY8-8Q-aE6"/>
+                            <constraint firstItem="KUX-IM-CwW" firstAttribute="centerX" secondItem="CU9-r1-edj" secondAttribute="centerX" id="KNm-SF-q9s"/>
+                            <constraint firstItem="KUX-IM-CwW" firstAttribute="top" secondItem="CU9-r1-edj" secondAttribute="bottom" constant="83" id="PBi-dh-yjG"/>
+                            <constraint firstItem="vl7-ab-poP" firstAttribute="top" secondItem="CU9-r1-edj" secondAttribute="bottom" constant="57" id="Pb8-9p-PNV"/>
+                            <constraint firstItem="CU9-r1-edj" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leadingMargin" constant="83" id="Q1U-Zf-r0E"/>
+                            <constraint firstItem="CU9-r1-edj" firstAttribute="centerX" secondItem="bdc-N1-crn" secondAttribute="centerX" id="TDw-Xc-nvE"/>
+                            <constraint firstItem="vl7-ab-poP" firstAttribute="baseline" secondItem="qud-Bh-TZA" secondAttribute="firstBaseline" id="e1a-wK-qEo"/>
+                            <constraint firstItem="b3d-qh-BLL" firstAttribute="top" secondItem="vl7-ab-poP" secondAttribute="bottom" constant="58" id="lFe-I6-nHX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vl7-ab-poP" secondAttribute="trailing" constant="25" id="sOg-Nv-8Fu"/>
+                            <constraint firstItem="CU9-r1-edj" firstAttribute="top" secondItem="PCf-gQ-wO7" secondAttribute="bottom" constant="40" id="vX0-HB-WDj"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-224.5" y="-407.5"/>
+        </scene>
+        <!--View2-->
+        <scene sceneID="gt4-Ns-AcB">
+            <objects>
+                <viewController id="rCV-3A-AKA" customClass="View2" customModule="Chasing_Pavements" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BS4-1p-9pW"/>
+                        <viewControllerLayoutGuide type="bottom" id="uCe-zC-CpJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FnU-xB-ia7">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3Q-HQ-wgT">
+                                <rect key="frame" x="38" y="11" width="67" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseAction:" destination="rCV-3A-AKA" eventType="touchUpInside" id="MJ3-zS-9nN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNM-he-ZYN">
+                                <rect key="frame" x="546" y="11" width="67" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Exit">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="exitAction:" destination="rCV-3A-AKA" eventType="touchUpInside" id="eai-uK-Tns"/>
+                                    <segue destination="LVB-YS-i5n" kind="presentation" modalTransitionStyle="coverVertical" id="TZR-3h-hPc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22308375942074005" green="0.32750366682617071" blue="0.84911112882653061" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="exitButton" destination="KNM-he-ZYN" id="TRz-QU-OZb"/>
+                        <outlet property="pauseButton" destination="p3Q-HQ-wgT" id="b7d-Zg-a92"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LLF-8C-LfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621.5" y="-407.5"/>
+        </scene>
+    </scenes>
+</document>
