@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3914A15519DFAC5F005B4112 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914A15419DFAC5F005B4112 /* View2.swift */; };
+		3914A15519DFAC5F005B4112 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914A15419DFAC5F005B4112 /* PlayViewController.swift */; };
 		39E6C3F419DB330B007ACFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6C3F319DB330B007ACFB2 /* AppDelegate.swift */; };
 		39E6C3F619DB330B007ACFB2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39E6C3F519DB330B007ACFB2 /* GameScene.sks */; };
 		39E6C3F819DB330B007ACFB2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6C3F719DB330B007ACFB2 /* GameScene.swift */; };
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3914A15419DFAC5F005B4112 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View2.swift; path = ../View2.swift; sourceTree = "<group>"; };
+		3914A15419DFAC5F005B4112 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayViewController.swift; path = ../PlayViewController.swift; sourceTree = "<group>"; };
 		39E6C3EE19DB330B007ACFB2 /* Chasing Pavements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chasing Pavements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E6C3F219DB330B007ACFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E6C3F319DB330B007ACFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 				39E6C3F519DB330B007ACFB2 /* GameScene.sks */,
 				39E6C3F719DB330B007ACFB2 /* GameScene.swift */,
 				39E6C3F919DB330B007ACFB2 /* GameViewController.swift */,
-				3914A15419DFAC5F005B4112 /* View2.swift */,
+				3914A15419DFAC5F005B4112 /* PlayViewController.swift */,
 				39E6C3FB19DB330B007ACFB2 /* Main.storyboard */,
 				39E6C3FE19DB330B007ACFB2 /* Images.xcassets */,
 				39E6C40019DB330B007ACFB2 /* LaunchScreen.xib */,
@@ -225,7 +225,7 @@
 				39E6C3F819DB330B007ACFB2 /* GameScene.swift in Sources */,
 				39E6C3FA19DB330B007ACFB2 /* GameViewController.swift in Sources */,
 				39E6C3F419DB330B007ACFB2 /* AppDelegate.swift in Sources */,
-				3914A15519DFAC5F005B4112 /* View2.swift in Sources */,
+				3914A15519DFAC5F005B4112 /* PlayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

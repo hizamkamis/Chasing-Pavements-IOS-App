@@ -91,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="-224.5" y="-407.5"/>
         </scene>
-        <!--View2-->
+        <!--Play View Controller-->
         <scene sceneID="gt4-Ns-AcB">
             <objects>
-                <viewController id="rCV-3A-AKA" customClass="View2" customModule="Chasing_Pavements" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rCV-3A-AKA" customClass="PlayViewController" customModule="Chasing_Pavements" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BS4-1p-9pW"/>
                         <viewControllerLayoutGuide type="bottom" id="uCe-zC-CpJ"/>
@@ -126,6 +126,23 @@
                                     <segue destination="LVB-YS-i5n" kind="presentation" modalTransitionStyle="coverVertical" id="TZR-3h-hPc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkZ-11-Mm3">
+                                <rect key="frame" x="272" y="167" width="122" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Start!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gameStart:" destination="rCV-3A-AKA" eventType="touchUpInside" id="Yz6-6h-1lw"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar" translatesAutoresizingMaskIntoConstraints="NO" id="IBp-zE-FY9">
+                                <rect key="frame" x="0.0" y="309" width="780" height="66"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bLi-qd-aQo">
+                                <rect key="frame" x="27" y="173" width="113" height="155"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.22308375942074005" green="0.32750366682617071" blue="0.84911112882653061" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -133,7 +150,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="exitButton" destination="KNM-he-ZYN" id="TRz-QU-OZb"/>
+                        <outlet property="ground" destination="IBp-zE-FY9" id="vM6-16-g9R"/>
                         <outlet property="pauseButton" destination="p3Q-HQ-wgT" id="b7d-Zg-a92"/>
+                        <outlet property="player" destination="bLi-qd-aQo" id="DbB-Aw-apa"/>
+                        <outlet property="startGameButton" destination="LkZ-11-Mm3" id="NmE-sS-oDU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LLF-8C-LfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -141,4 +161,7 @@
             <point key="canvasLocation" x="621.5" y="-407.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bar" width="1344" height="64"/>
+    </resources>
 </document>
